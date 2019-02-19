@@ -20,9 +20,9 @@ var map = new ol.Map({
 
 map.addLayer(new ol.layer.Tile({
     source: new ol.source.TileWMS({
-        url: 'https://idpgis.ncep.noaa.gov/arcgis/rest/services/NOS_Observations/CO_OPS_Stations/MapServer',
+        url: 'https://gis.srh.noaa.gov/arcgis/services/NDFDTemps/MapServer/WMSServer',
         params: {
-            LAYERS: 6,
+            LAYERS: 16,
             FORMAT: 'image/png',
             TRANSPARENT: true
         },
